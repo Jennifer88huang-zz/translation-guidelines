@@ -1,7 +1,7 @@
 # Making contributions
 
 ## Markdown
-StreamNative company website is written in [Markdown](https://www.markdownguide.org/). If you don't know how to use Markdown, learn how to [get started](https://www.markdownguide.org/getting-started).
+Translation guidelines are written in [Markdown](https://www.markdownguide.org/). If you don't know how to use Markdown, learn how to [get started](https://www.markdownguide.org/getting-started).
 
 
 ## Workflow
