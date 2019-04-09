@@ -3,4 +3,4 @@
 - Jia Zhai (https://github.com/jiazhai)
 - Jennifer HUANG (https://github.com/Jennifer88huang)
 - Bila ()
-- Yiming LI ()
+- Yiming Li ()
