@@ -1,5 +1,5 @@
 # First Contributions
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. We wanted to simplify the way new open-source contributors learn and contribute for the first time.
 
 ## How to contribute
 If you don't know how to use Git or how to make a pull request, refer to [First Contributions in Open Source project](https://github.com/firstcontributions/first-contributions).
