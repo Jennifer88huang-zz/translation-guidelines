@@ -1,6 +1,8 @@
 # Contributors
-- Sijie Guo (https://github.com/sijie)
+
+- Jennifer Huang (https://github.com/Jennifer88huang)
 - Jia Zhai (https://github.com/jiazhai)
-- Jennifer HUANG (https://github.com/Jennifer88huang)
-- Bila ()
-- Yiming LI ()
+- Sijie Guo (https://github.com/sijie)
+- Tianci Gao (https://github.com/bilahepan)
+- Tuten (https://github.com/tuteng)
+- Yiming Li ()
