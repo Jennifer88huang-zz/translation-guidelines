@@ -1,6 +1,6 @@
 # 翻译流程和规范
 
-欢迎加入 Pulsar 文档翻译项目！翻译前，阅读[翻译流程](翻译流程)和[翻译规范](翻译规范)会帮助你快速上手。
+欢迎加入 Pulsar 文档翻译项目！翻译前，阅读[翻译流程](#翻译流程)和[翻译规范](#翻译规范)会帮助你快速上手。
 
 ## 翻译流程
 Pulsar 的翻译项目放在 [Apache Pulsar Crowdin](https://crowdin.com/project/apache-pulsar) 上。想进一步了解 Crowdin 功能，参阅 [Crowdin 网站](https://crowdin.com/) 。
