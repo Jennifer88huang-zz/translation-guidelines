@@ -134,13 +134,15 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
  - 翻译调整：上面的消息成功发布到主题后，你会在标准输出中看到: Hello Pulsar。    ✅ 
 
 ### 8. Will 将来时态
-英文中有“will”时，不用翻译成“将要。。。”，直接转化成一般现在时翻译就行。例如：
+英文中有“will”时，不用翻译成“将要。。。”，直接转化成一般现在时翻译就行。例如：  
+
 - This will publish a single message to the Pulsar topic. 
 - 原翻译：这将向Pulsar的Topic发送单条消息。   ❌
 - 翻译调整：（......）给 Pulsar 主题发布一条信息。   ✅ 
 
 ### 9. 示例
-在英文中遇到 “Here‘s sth”，根据上下文语境做调整。例如：
+在英文中遇到 “Here‘s sth”，根据上下文语境做调整。例如： 
+
 - Here's an example.
 - 原翻译：这里有一个示例。   ❌
 - 翻译调整：下面是一个示例。     ✅ 
