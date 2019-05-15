@@ -83,9 +83,9 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
 
 上面这个例子中，使用句号（。）给每条实践结尾。
 
-### 4. 一般用“你“，而不是“您“
+### 4. “you“翻译为“你“
 
-为了风格统一，”you“翻译成“你“。可以不用”你“时，尽量省略不用。
+为了风格统一，在翻译“you”时，可以省略时，尽量省略不用；必须使用时，用“你”，而不是“您”。
 
 ### 5. 示例代码及注释
 
@@ -125,8 +125,25 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
 
 - 使用有 proxy 的 Pulsar 客户端   ✅ 
 
-**7. 尽量少用被动句**
+### 7. 尽量少用被动句
 
-英文文档中，有时以物为主语，中文翻译过程中，不需要把”被“字翻译出来。
+英文文档中，有时以物为主语，中文翻译过程中，不需要把”被“字翻译出来。例如：  
 
-比如，”...消息被依次分发给消费者...“, 直接翻译成 ”消息依次分发给消费者“即可。
+ - 英文：Once the message above has been successfully published to the topic, you should see it in the standard output: Hello Pulsar.
+ - 原翻译：一旦上面的消息被成功发布到Topic中，您会在标准输出中看到它：Hello Pulsar”。   ❌
+ - 翻译调整：上面的消息成功发布到主题后，你会在标准输出中看到: Hello Pulsar。    ✅ 
+
+### 8. Will 将来时态
+英文中有“will”时，不用翻译成“将要。。。”，直接转化成一般现在时翻译就行。例如：
+- This will publish a single message to the Pulsar topic. 
+- 原翻译：这将向Pulsar的Topic发送单条消息。   ❌
+- 翻译调整：（......）给 Pulsar 主题发布一条信息。   ✅ 
+
+### 9. 示例
+在英文中遇到 “Here‘s sth”，根据上下文语境做调整。例如：
+- Here's an example.
+- 原翻译：这里有一个示例。   ❌
+- 翻译调整：下面是一个示例。     ✅ 
+
+### 10. 语言简洁、流畅
+语言尽量简单、通顺，翻译完后，读一遍，适合中国人的阅读习惯。英语中有时会用从句，翻译中文时，尽量拆成几个简单的句子。
