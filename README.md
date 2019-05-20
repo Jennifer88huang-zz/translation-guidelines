@@ -134,7 +134,7 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
  - 翻译调整：上面的消息成功发布到主题后，你会在标准输出中看到: Hello Pulsar。    ✅ 
 
 ### 8. Will 将来时态
-英文中有“will”时，不用翻译成“将要。。。”，直接转化成一般现在时翻译就行。例如：  
+英文中有“will”时，不用翻译成“将要......”，直接转化成一般现在时翻译就行。例如：  
 
 - This will publish a single message to the Pulsar topic. 
 - 原翻译：这将向Pulsar的Topic发送单条消息。   ❌
@@ -149,3 +149,6 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
 
 ### 10. 语言简洁、流畅
 语言尽量简单、通顺，翻译完后，读一遍，适合中国人的阅读习惯。英语中有时会用从句，翻译中文时，尽量拆成几个简单的句子。
+
+## 加入 Contributors
+当你读完本篇内容，开始翻译 Pulsar 文档时，在 [Contributors](https://github.com/streamnative/translation-guidelines/blob/master/CONTRIBUTORS.md) 中加上自己的名字。 
