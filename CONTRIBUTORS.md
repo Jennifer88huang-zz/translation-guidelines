@@ -6,3 +6,4 @@
 - Tianci Gao (https://github.com/bilahepan)
 - Tuten (https://github.com/tuteng)
 - Yiming Li ()
+- Bu Xing (https://github.com/xingbu110)
