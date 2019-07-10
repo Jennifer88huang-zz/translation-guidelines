@@ -16,7 +16,6 @@ Translation guidelines are written in [Markdown](https://www.markdownguide.org/)
 Create your clone.
 
 ```sh
-$ mkdir -p $working_dir
 $ cd $working_dir
 $ git clone https://github.com/$user/translation-guidelines
 ```
