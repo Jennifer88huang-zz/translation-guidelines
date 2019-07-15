@@ -9,7 +9,6 @@ Pulsar 的翻译项目放在 [Apache Pulsar Crowdin](https://crowdin.com/project
 我们的翻译流程主要有以下几步。
 
 ### 注册 Crowdin 账号，加入 Pulsar 翻译项目组
-
 登录 [Apache Pulsar Crowdin project](https://crowdin.com/project/apache-pulsar) 页面。如果没有 Crowdin 账户，点击右上角 **SIGN UP**，输入个人信息创建账户。如果你已经有 Github、Facebook，Google，Twitter，Gitlab 账号，直接在注册页面关联以上任意账号即可。
 
 登录成功后，在右上角选择 **Join（加入）**。
@@ -17,7 +16,7 @@ Pulsar 的翻译项目放在 [Apache Pulsar Crowdin](https://crowdin.com/project
 > Pulsar 的源文件为英文，翻译项目分为中文、法语和日语。  
 > 选择翻译目标语言，点击进入浏览。本文以“简体中文翻译项目”为例。
 
-### 选择翻译文件
+### 选择翻译文件，提 PR
 点开“简体中文翻译项目”，进入 **master > docs** 目录中，查看每个文件的翻译进度。 **master > docs** 目录中的文件是 Pulsar 官网最新版本的源文件，只需要翻译这个目录中的 markdown 文件即可。其中： 
    
 - 绿色：翻译并通过审阅  
@@ -28,18 +27,17 @@ Pulsar 的翻译项目放在 [Apache Pulsar Crowdin](https://crowdin.com/project
 
 根据自己对 Pulsar 及相关技术的理解，优先选择自己熟悉、尚未翻译的内容进行翻译。
 
-选择好要翻译的文件后，通知 Pulsar 翻译项目管理员（翻译文件 id + 你的 Crowdin ID）。通知方式有如下几种：       
+选择要翻译的文件后，查看 [Translation schedule](https://github.com/streamnative/translation-guidelines/schedule) 中是否有其他人在翻译这个文件。如果已经有，可以重新选择；如果没有，参考 [PR 模版](https://github.com/streamnative/translation-guidelines/blob/master/.github/PULL_REQUEST_TEMPLATE.md)，把自己要翻译的文件和姓名分别添加进 [Translation schedule](https://github.com/streamnative/translation-guidelines/schedule)，提交 PR。
 
-- 如果你已经在 Pulsar Contributor Club（PCC）微信群，直接在微信群中告知。
-- 发邮件到 growth@streamnative.io。要加入 PCC 微信群，在邮件中提供你的微信 ID。
-
-### 创建翻译任务
-Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdin.com/project/apache-pulsar/tasks) 页面创建任务，分配给相应的译者，并把任务链接发给译者。
+### 打标签
+- Reviewers：无需设置，负责人会自动收到您提交的 PR 申请，会安排人员处理。
+- Assignees：选择您自己，方便你后续收到进度通知。
+- Label：选择 `translation`。
 
 ### 翻译
-译者认领翻译任务后，开始翻译。
-
-在打开的翻译界面，文件 id 不需要翻译。翻译中的 tag 和源文件保持一致。不要修改或遗漏 tag。tag 遗漏或错位会造成中文网站内容显示错乱。
+译者开始翻译。在打开的翻译界面，文件 id 不需要翻译。翻译中的 tag 和源文件保持一致。
+> **重要  
+> 一定不要修改、遗漏 tag，或者在 tag 后面加空格。tag 遗漏或错位会造成中文网站内容显示错乱。**
 
 ![](media/id-tag.jpg)
 
@@ -50,7 +48,12 @@ Growth 团队管理员收到通知后，在 [Apache Pulsar Tasks](https://crowdi
 翻译过程中，如需参考或者追加 Pulsar 文档术语库，可以使用 [Pulsar 文档翻译术语库](https://shimo.im/sheets/5jozGy5WIUQQf5JV/MODOC)。
 
 ### 审阅
-翻译完成后，告知 Growth 团队成员，Growth 团队成员会尽快审阅翻译文件。审阅完成后，在 Pulsar Contributor Club 群或者邮件告知译者。如有需要讨论的地方，会在 [Discussions](https://crowdin.com/project/apache-pulsar/discussions) 中创建 topic，方便交流讨论。 
+翻译完成后，在您提交的 PR 页面留言告知：  
+“I've finished translation, could you please help review?”
+
+Reviewer 收到通知后，开始审阅翻译内容。审阅完成后，在 PR 中告知译者，并做简单点评反馈。如有需要讨论的地方，可以直接在 PR 中交流讨论。 
+
+审阅无误后，reviewer approve 该 PR，并 merge。
 
 ## 翻译规范 ##
 本规范主要列出了一些常见的翻译问题，并提供了一些指导意见和建议。开始翻译前，请认真阅读并尽量遵守本文的规范，这能有效提高 Pulsar 翻译文件质量，统一翻译风格。

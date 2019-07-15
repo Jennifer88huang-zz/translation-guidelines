@@ -27,7 +27,7 @@ $ cd $working_dir/translation-guidelines
 $ git remote add upstream https://github.com/streamnative/translation-guidelines.git
 ```
 
-The output looks as follows:
+Use the `git remote -v` command, you find the output looks as follows:
 
 ```
 origin    https://github.com/$user/translation-guidelines.git (fetch)
@@ -36,7 +36,7 @@ upstream  https://github.com/streamnative/translation-guidelines (fetch)
 upstream  https://github.com/streamnative/translation-guidelines (push)
 ```
 
-### Step 3: Branch
+### Step 3: Keep your branch in sync
 
 Get your local master up to date.
 
@@ -45,7 +45,10 @@ $ cd $working_dir/translation-guidelines
 $ git fetch upstream
 $ git checkout master
 $ git rebase upstream/master
+$ git push origin master 
 ```
+
+### Step 4: Create your branch
 
 Branch from master.
 
@@ -53,19 +56,10 @@ Branch from master.
 $ git checkout -b myfeature
 ```
 
-### Step 4: Edit the code
+### Step 5: Edit the code
 
 You can now edit the code on the `myfeature` branch.
 
-### Step 5: Keep your branch in sync
-
-While on your `myfeature` branch, run the following commands:
-
-```sh
-$ git fetch upstream
-$ git rebase upstream/master
-
-```
 
 ### Step 6: Commit
 
@@ -90,11 +84,10 @@ git add . (add new and modified files, not including deleted files)
 
 ### Step 7: Push
 
-When your commit is ready for review (or just to establish an offsite backup of your work),
-push your branch to your fork on `github.com`:
+When your commit is ready for review (or just to establish an offsite backup of your work), push your branch to your fork on `github.com`:
 
 ```sh
-$ git push origin myfeature:master
+$ git push origin myfeature
 ```
 
 ### Step 8: Create a pull request
